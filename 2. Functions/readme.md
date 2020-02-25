@@ -244,9 +244,11 @@ functions' `this` reference can be set while call a function.
 
 Because of following reasons we should always use arrow functions:
 
-    * Since value of this is underterministic in JavaScript.  
-    * It does not allows conducting static code analysis.  
-    * Tree-Shaking cannot be done properly.  
+* Since value of this is underterministic in JavaScript.  
+
+* It does not allows conducting static code analysis.  
+
+* Tree-Shaking cannot be done properly.  
 
 
 ## Bonus
