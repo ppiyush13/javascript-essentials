@@ -43,8 +43,8 @@ a = 10; // assignment
 
 var b = 10; // declaration + assignment
 ```
-
-
+  
+  
 So technically `let` variables do hoist, but they throw errors when accessed before being declaration.
 
 https://dmitripavlutin.com/variables-lifecycle-and-why-let-is-not-hoisted/
@@ -58,13 +58,35 @@ variables created by `var` in global scope ends up on being attached to window o
 Same is not true with `let`
 
 So where global `let` are stored ?
-They live in the scope of an invisible block that notionally encloses all JS code that runs in a web page.
+They live in the scope of an invisible block that notionally encloses all JS code that runs in a web page.  
+
+```js
+// execute this code in browser
+
+var var_variable = 13;
+let let_variable = 2;
+
+console.log(window.var_variable);  // 13
+console.log(window.let_variable);  // undefined
+```
 
 ### 4. Redeclaration
 
 Redeclaring the same variable within the same function or block scope raises a SyntaxError.
 
+```js
+(() => {
+    {
+        let foo = 10;
 
+        console.log(10); // Even this wont be executed, parser itself will throw the error
+
+        let foo; // SyntaxError thrown.
+    }
+})();
+```
+  
+  
 ## Don't apply shortcuts
 
 ```js
@@ -93,7 +115,7 @@ Though for object property assignment, this is harmless
 ```
 
 
-## Reference
+## References
 
 https://hacks.mozilla.org/2015/07/es6-in-depth-let-and-const/
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let

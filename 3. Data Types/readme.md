@@ -219,6 +219,7 @@ myDate instanceof String    // returns false
 ```
 
 ## References
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 https://www.freecodecamp.org/news/https-medium-com-gladchinda-hacks-for-creating-javascript-arrays-a1b80cb372b/
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof

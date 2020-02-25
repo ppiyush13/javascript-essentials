@@ -112,7 +112,7 @@ Below example will throw `TypeError`
     };
 
 
-    const student = new Student('Piyush');
+    const student = new Student('Paul');
     console.log(student.name);
 
 })();
@@ -284,8 +284,7 @@ Equipped with knowledge of `functions` and `this`, can you write a code to creat
 </details>
 
 
-
-References:
+## References:
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 https://www.taniarascia.com/this-bind-call-apply-javascript/

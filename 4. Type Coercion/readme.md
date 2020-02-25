@@ -286,6 +286,7 @@ Object.is(NaN, NaN)); // true
 
 ## References
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 https://codeahoy.com/javascript/2019/10/12/==-vs-===-in-javascript/
 
 
