@@ -142,14 +142,16 @@ parseInt(NaN)         // NaN
 
 ```js
 const numbers = [1, 2, 3];
-
 const alphabets = new Array(26);
 
-new Array(26).fill(undefined); // 1
+// 1.
+new Array(26).fill(undefined); 
 
-Array.from(new Array(26)); // 2
+// 2.
+Array.from(new Array(26)); 
 
-[... new Array(26)]; // 3
+// 3.
+[... new Array(26)]; 
 ```
 
 ## typeof operator
