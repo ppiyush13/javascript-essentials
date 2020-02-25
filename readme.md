@@ -3,9 +3,9 @@
 Contents
 
 1. [Variables][1]
-1. [Functions][1]
-1. [Data Types][1]
-1. [Type Coercion][1]
+1. [Functions][2]
+1. [Data Types][3]
+1. [Type Coercion][4]
 
 [1]: 1.%20Variables
 [2]: 2.%20Functions
