@@ -111,7 +111,7 @@ Though for object property assignment, this is harmless
     }
     console.log(obj, a); // ReferenceError
 
-})()
+})();
 ```
 
 
