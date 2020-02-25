@@ -224,7 +224,7 @@ functions' `this` reference can be set while call a function.
     console.log(student.getFullName('Mr.')); // Mr. Tim Berners Lee
 
     const fnReference = student.getFullName;
-    console.log(fnReference('Mr.')); // Undefined
+    console.log(fnReference('Mr.')); // Mr. Undefined
 
     const anotherStudent = new Student('John Resig');
     console.log(fnReference.call(anotherStudent, 'Mr.')); // Mr. John Resig
